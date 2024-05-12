@@ -2,14 +2,12 @@
 The well-known sleeping barber dilemma, implemented using pthreads, semaphores, and mutexes in C.
 
 Input:
-
-#Number of available seats
-#Total number of customers
+Number of available seats
+Total number of customers
 
 Output:
-
-#Average waiting time for customers in milliseconds
-#Number of customers who had to leave without being served
+Average waiting time for customers in milliseconds
+Number of customers who had to leave without being served
 
 Barber: pthread
 Customers: pthreads
